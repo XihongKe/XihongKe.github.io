@@ -21,15 +21,21 @@
 title: XihongKe's Website
 email: xihongke@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  XihongKe's website. XihongKe的个人博客
+  XihongKe的个人博客
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xihongke.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  XihongKe
+show_downloads: false
+google_analytics: false
+github:
+  is_project_page: false
+  user_name: XiHongKe
+
+
+
 
 # Build settings
-theme: minima
-#remote_theme: pages-themes/modernist
+#theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 

@@ -1,0 +1,12 @@
+.index-content .title{
+    font-size: 26px;
+}
+
+.index-content li {
+    display: block;
+}
+
+.index-content .date {
+    color: gray;
+    font-size: 14px;
+}
