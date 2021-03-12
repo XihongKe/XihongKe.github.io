@@ -28,7 +28,7 @@ twitter_username:
 github_username:  XihongKe
 
 # Build settings
-theme: minima
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
