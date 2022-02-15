@@ -36,7 +36,7 @@ xdebug.idekey = "phpstorm"
 
 ### 在浏览器发起请求进行调试
 
-在 [PhpStorm官方文档]([Configure Xdebug | PhpStorm (jetbrains.com)](https://www.jetbrains.com/help/phpstorm/2021.3/browser-debugging-extensions.html)) 中下载浏览器拓展。
+在 [PhpStorm官方文档](https://www.jetbrains.com/help/phpstorm/2021.3/browser-debugging-extensions.html) 中下载浏览器拓展。
 
 ![Download Xdebug Helper](/images/2022-02-15/xdebug_download.png "下载Xdebug Helper")
 
@@ -50,11 +50,11 @@ xdebug.idekey = "phpstorm"
 
 如果需要调试Ajax请求，则需要在请求参数中增加`XDEBUG_SESSION_START=PHPSTORM`  
 
-###在Postman发起请求进行调试
+### 在Postman发起请求进行调试
 
 和调试Ajax请求类似，在Headers中增加`Cookie:XDEBUG_SESSION=PHPSTORM`即可  
 
 ### 遇到问题？
 
-请查阅 [PhpStorm官方文档的“零配置调试教程”]([Zero-configuration debugging | PhpStorm (jetbrains.com)](https://www.jetbrains.com/help/phpstorm/2021.3/zero-configuration-debugging.html?utm_source=product&utm_medium=link&utm_campaign=PS&utm_content=2021.3))
+请查阅 [PhpStorm官方文档的“零配置调试教程”](https://www.jetbrains.com/help/phpstorm/2021.3/zero-configuration-debugging.html?utm_source=product&utm_medium=link&utm_campaign=PS&utm_content=2021.3)
 
