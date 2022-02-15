@@ -30,6 +30,7 @@ github:
   is_project_page: false
   user_name: XihongKe
 
+excerpt_separator: <!--more--> # 摘要分隔符
 
 
 

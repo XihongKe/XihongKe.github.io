@@ -2,13 +2,14 @@
 layout: default
 title:  "PhpStorm 配置Xdebug 调试在浏览器和 Postman 中发起的请求"
 date:   2022-02-15 10:36:50 +0800
-excerpt：通过简单的配置来启用Xdebug断点调试
 categories: notes
 ---
 
 ### 安装 Xdebug
 
 先查看是否已安装了 Xdebug 模块
+
+<!--more-->
 
 ```
 ➜  ~ php -m | grep xdebug

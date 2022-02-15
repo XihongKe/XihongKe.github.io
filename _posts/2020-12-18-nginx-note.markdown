@@ -3,10 +3,10 @@ layout: default
 title:  "Nginx相关知识笔记"
 date:   2020-12-18 15:02:21 +0800
 categories: notes
-excerpt: 一些Nginx配置项的备忘录
 ---
 #### 1.worker_processes： 
-worker的数量。该数值与CPU数量相等最适宜，大于CPU数量会造成上下文切换消耗，小于CPU数量则无法完全利用CPU资源。  
+worker的数量。该数值与CPU数量相等最适宜，大于CPU数量会造成上下文切换消耗，小于CPU数量则无法完全利用CPU资源。 
+<!--more-->
 
 #### 2.worker_connections:
 一个worker的连接数量。一次请求占用的连接数为2个(静态资源访问）或者4个（反向代理）。  

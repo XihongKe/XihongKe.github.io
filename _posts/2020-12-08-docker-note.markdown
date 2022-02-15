@@ -7,6 +7,7 @@ excerpt：1.在容器中使用systemctl服务
 ---
 #### 1.在容器中使用systemctl服务
 启动容器时，`-d` 后跟上 `--privileged` ，并使用 `/usr/sbin/init` 作为启动命令。
+<!--more-->
 例如：
 ```shell
 docker run -it --name container_name -d --privileged image-name /usr/sbin/init
