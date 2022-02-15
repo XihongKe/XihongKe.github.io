@@ -3,6 +3,7 @@ layout: default
 title:  "Docker相关知识笔记"
 date:   2020-12-08 14:32:50 +0800
 categories: notes
+excerpt："1.在容器中使用systemctl服务"
 ---
 #### 1.在容器中使用systemctl服务
 启动容器时，`-d` 后跟上 `--privileged` ，并使用 `/usr/sbin/init` 作为启动命令。
